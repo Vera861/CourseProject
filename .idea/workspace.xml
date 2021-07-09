@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e95e1131-8dcf-4f68-9fe4-0a94acbe2af9" name="Default Changelist" comment="create repo" />
+    <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="file">
+      <change beforePath="$PROJECT_DIR$/.idea/CourseProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CourseProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CourseProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/ChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/ChatApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/ChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/ChatHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/FilesUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/chat.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/files/img.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,34 +65,126 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1v1xzHZzZbDUzhzws1xmMEwSZIv" />
+  <component name="ProjectId" id="1v33u2aFXGYPdP1gVUQUQmKqNxr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-storage-july-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Application.ChatApp">
+    <configuration name="ChatApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChatApp" />
+      <module name="client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server" />
+      <module name="server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatApp" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e95e1131-8dcf-4f68-9fe4-0a94acbe2af9" name="Default Changelist" comment="" />
-      <created>1625743659212</created>
+      <changelist id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="" />
+      <created>1625777166962</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625743659212</updated>
+      <updated>1625777166962</updated>
     </task>
     <servers />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="create repo" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="file" />
+    <option name="LAST_COMMIT_MESSAGE" value="file" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1625744265267">
+    <state x="435" y="187" key="#Notifications" timestamp="1625833754912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625744265267" />
+    <state x="435" y="187" key="#Notifications/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833754912" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1625833137105">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833137105" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1625833917416">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833917416" />
+    <state x="551" y="260" key="Github.ShareDialog" timestamp="1625833367677">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="551" y="260" key="Github.ShareDialog/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833367677" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1625834263287">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625834263287" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1625834263286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625834263286" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1625834263286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625834263286" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1625834263287">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="174" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625834263287" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1625833927847">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833927847" />
+    <state x="65" y="24" key="new project wizard" timestamp="1625777409535">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625777409535" />
   </component>
 </project>

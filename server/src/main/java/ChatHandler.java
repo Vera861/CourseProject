@@ -1,14 +1,15 @@
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.Socket;
 
-public class ChatHandler implements Runnable {
+public class ChatHandler<in> implements Runnable {
 
-    private Socket socket;
-    private InputStream is;
-    private OutputStream os;
-    private byte[] buffer;
+    private final Socket socket;
+    private final byte[] buffer;
+    private DataInputStream in;
+    private DataOutputStream os;
 
     public ChatHandler(Socket socket) {
         this.socket = socket;
@@ -17,22 +18,28 @@ public class ChatHandler implements Runnable {
 
     @Override
     public void run() {
-        try {
-            is = socket.getInputStream();
-            os = socket.getOutputStream();
+        try (DataInputStream in = new DataInputStream(socket.getInputStream())) {
+            int read;
             while (true) {
-                int read = is.read(buffer);
-                System.out.println("Received: " + new String(buffer, 0, read));
-                os.write(buffer, 0 , read);
-                os.flush();
+                String strFromClient = in.readUTF();
+                if (strFromClient.startsWith("/file")) {
+                    String[] parts = strFromClient.split(" ");
+                    String fileName = parts[1];
+                    String fileSize = parts[2];
+                    FileOutputStream os = new FileOutputStream(fileName);
+                    while ((read = in.read(buffer)) != -1) {
+                        os.write(buffer, 0, read);
+                        os.flush();
+                    }
+                }
             }
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.err.println("Client connection exeption");
-        }finally {
+        } finally {
             try {
-                is.close();
+                in.close();
                 os.close();
-            } catch (IOException ioException){
+            } catch (IOException ioException) {
                 ioException.printStackTrace();
             }
         }
