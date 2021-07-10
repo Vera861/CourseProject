@@ -2,44 +2,47 @@ import javafx.application.Platform;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.Socket;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ResourceBundle;
 
 
 public class ChatController implements Initializable {
-    private InputStream is;
-    private OutputStream os;
+    private final String root = "client/clientFiles";
+    public TextField statusBar;
+    private DataInputStream is;
     private byte[] buffer;
 
     public ListView<String> listView;
-    public TextField textField;
+    private DataOutputStream os;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         buffer = new byte[256];
         try {
-            File dir = new File("./client");
+            File dir = new File(root);
             listView.getItems().clear();
             listView.getItems().addAll(dir.list());
 
             Socket socket = new Socket("localhost", 8189);
-            is = socket.getInputStream();
-            os = socket.getOutputStream();
+            is = new DataInputStream(socket.getInputStream());
+            os = new DataOutputStream(socket.getOutputStream());
             Thread readThread = new Thread(() -> {
                 try {
                     while (true) {
-                        int read = is.read(buffer);
-                        String fileName = new String(buffer, 0, read);
-                        Platform.runLater(() -> listView.getItems().add(fileName)
+                        String status = is.readUTF();
+                        Platform.runLater(() -> statusBar.setText(status)
                         );
                     }
-                }catch (Exception e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             });
@@ -51,9 +54,13 @@ public class ChatController implements Initializable {
     }
 
     public void send(javafx.event.ActionEvent actionEvent) throws IOException {
-        String msg = textField.getText();
-        os.write(msg.getBytes(StandardCharsets.UTF_8));
+        String fileName = listView.getSelectionModel().getSelectedItem();
+        Path filePath = Paths.get(root, fileName);
+        long fileSize = Files.size(filePath);
+        os.writeUTF(fileName);
+        os.writeLong(fileSize);
+        Files.copy(filePath, os);
         os.flush();
-        textField.clear();
+        statusBar.setText("File: " + fileName + " sended");
     }
 }
