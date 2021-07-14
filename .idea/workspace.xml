@@ -27,21 +27,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="file">
-      <change afterPath="$PROJECT_DIR$/client/clientFiles/1.txt" afterDir="false" />
+    <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="lesson1 hw">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/clientFiles/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/chat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/classes/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/ChatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/classes/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/chat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/target/classes/ChatHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/ChatHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/Server.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,21 +63,61 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="L:\Java 3 core course project\CourseProject\client\clientFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatApp">
+  <component name="RunManager" selected="Application.Server (1)">
+    <configuration name="BufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.BufferExample" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChatApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ChatApp" />
       <module name="client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.Example" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.Server" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.BufferExample" />
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.ChatApp" />
         <item itemvalue="Application.Server" />
       </list>
@@ -102,6 +148,14 @@
       <option name="presentableId" value="Default" />
       <updated>1625777166962</updated>
     </task>
+    <task id="LOCAL-00001" summary="lesson1 hw">
+      <created>1625926462116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625926462116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -134,7 +188,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="file" />
-    <option name="LAST_COMMIT_MESSAGE" value="file" />
+    <MESSAGE value="lesson1 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson1 hw" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -148,30 +203,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833137105" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1625918881892">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1626263286642">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625918881892" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626263286642" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1626012337004">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626012337004" />
     <state x="551" y="260" key="Github.ShareDialog" timestamp="1625833367677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="260" key="Github.ShareDialog/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833367677" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1625924037492">
+    <state width="1306" height="168" key="GridCell.Tab.0.bottom" timestamp="1626287202775">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625924037492" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1625924037492">
+    <state width="1306" height="168" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626287202775" />
+    <state width="1306" height="168" key="GridCell.Tab.0.center" timestamp="1626287202774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625924037492" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1625924037492">
+    <state width="1306" height="168" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626287202774" />
+    <state width="1306" height="168" key="GridCell.Tab.0.left" timestamp="1626287202774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625924037492" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1625924037492">
+    <state width="1306" height="168" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626287202774" />
+    <state width="1306" height="168" key="GridCell.Tab.0.right" timestamp="1626287202774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625924037492" />
+    <state width="1306" height="168" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626287202774" />
     <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1625922695020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -188,13 +247,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="217" key="GridCell.Tab.1.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625922695020" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1625919630582">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1626284765649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625919630582" />
-    <state x="65" y="24" key="new project wizard" timestamp="1625777409535">
+    <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626284765649" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1625926473736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="24" key="new project wizard/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625777409535" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625926473736" />
+    <state x="65" y="0" key="new project wizard" timestamp="1625944233999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625944233999" />
   </component>
 </project>
