@@ -28,19 +28,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="3 lesson">
-      <change afterPath="$PROJECT_DIR$/History project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/ByteInboundHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/ChatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/MessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/target/classes/nio/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/nio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/nio/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/nio/BufferExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/nio/BufferExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/nio/Example$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/nio/Example$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/nio/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/nio/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/netty/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/netty/ChatHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626287529328</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3 lesson">
+      <created>1626357704109</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626357704109</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -224,10 +225,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="428" y="165" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357150162" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1626356686391">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1626362930882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626356686391" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626362930882" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1626012337004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -276,13 +277,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357390760" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626357234997">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626357713582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357234997" />
-    <state x="65" y="0" key="new project wizard" timestamp="1625944233999">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357713582" />
+    <state x="65" y="0" key="new project wizard" timestamp="1626362795087">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625944233999" />
+    <state x="65" y="0" key="new project wizard/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626362795087" />
   </component>
 </project>
