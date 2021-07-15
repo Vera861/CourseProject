@@ -1,28 +1,27 @@
+import io.netty.handler.codec.serialization.ObjectDecoderInputStream;
+import io.netty.handler.codec.serialization.ObjectEncoderOutputStream;
 import javafx.application.Platform;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import model.Message;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.net.Socket;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ResourceBundle;
 
 
 public class ChatController implements Initializable {
     private final String root = "client/clientFiles";
     public TextField statusBar;
-    private DataInputStream is;
+    private ObjectEncoderOutputStream os;
+    private ObjectDecoderInputStream is;
     private byte[] buffer;
-
+    private NettyNetwork network;
     public ListView<String> listView;
-    private DataOutputStream os;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -33,8 +32,9 @@ public class ChatController implements Initializable {
             listView.getItems().addAll(dir.list());
 
             Socket socket = new Socket("localhost", 8189);
-            is = new DataInputStream(socket.getInputStream());
-            os = new DataOutputStream(socket.getOutputStream());
+            os = new ObjectEncoderOutputStream(socket.getOutputStream());
+            is = new ObjectDecoderInputStream(socket.getInputStream());
+
             Thread readThread = new Thread(() -> {
                 try {
                     while (true) {
@@ -54,13 +54,7 @@ public class ChatController implements Initializable {
     }
 
     public void send(javafx.event.ActionEvent actionEvent) throws IOException {
-        String fileName = listView.getSelectionModel().getSelectedItem();
-        Path filePath = Paths.get(root, fileName);
-        long fileSize = Files.size(filePath);
-        os.writeUTF(fileName);
-        os.writeLong(fileSize);
-        Files.copy(filePath, os);
-        os.flush();
-        statusBar.setText("File: " + fileName + " sended");
+        String content = statusBar.getText();
+        network.writeMessage(new Message(content));
     }
 }

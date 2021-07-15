@@ -10,7 +10,7 @@
 
     <children>
         <ListView fx:id="listView" layoutX="15.0" layoutY="15.0" prefHeight="557.0" prefWidth="415.0"/>
-        <TextField fx:id="statusBar" editable="false" layoutX="15.0" layoutY="571.0" prefHeight="36.0"
+        <TextField fx:id="statusBar" layoutX="15.0" layoutY="571.0" prefHeight="36.0"
                    prefWidth="244.0"/>
         <Button layoutX="298.0" layoutY="577.0" onAction="#send" mnemonicParsing="false" prefHeight="25.0"
                 prefWidth="110.0" text="SEND"/>

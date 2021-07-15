@@ -28,10 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="3 lesson">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/chat.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626363082702</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3 lesson">
+      <created>1626363423645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626363423645</updated>
+    </task>
+    <task id="LOCAL-00006" summary="3 lesson">
+      <created>1626363686020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1626363686020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -281,10 +295,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357390760" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626363093388">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626363689116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626363093388" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626363689116" />
     <state x="65" y="0" key="new project wizard" timestamp="1626362795087">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
