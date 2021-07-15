@@ -1,3 +1,5 @@
+package model;
+
 import lombok.Data;
 
 import java.util.Date;
@@ -6,8 +8,8 @@ import java.util.Date;
 
 public class Message {
 
-    Date sendAt;
-    String content;
+    private Date sendAt;
+    private String content;
 
     public Message(String content) {
         this.content = content;
