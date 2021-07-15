@@ -71,7 +71,12 @@ public class Server {
             }
         }
         System.out.println("resieved: " + sb);
-        channel.write(ByteBuffer.wrap(("From server: " + sb).getBytes(StandardCharsets.UTF_8)));
+        for (SelectionKey selectionKey : selector.keys()) {
+            if (selectionKey.isValid() && selectionKey.channel() instanceof SocketChannel) {
+                SocketChannel ch = (SocketChannel) selectionKey.channel();
+                ch.write(ByteBuffer.wrap(("From server: " + sb).getBytes(StandardCharsets.UTF_8)));
+            }
+        }
     }
 
 

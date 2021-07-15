@@ -27,12 +27,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="lesson1 hw">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="3 lesson">
+      <change afterPath="$PROJECT_DIR$/History project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/ByteInboundHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/ChatHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/MessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/netty/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/target/classes/nio/Server.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/ChatHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/ChatHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/nio/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/nio/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/nio/BufferExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/nio/BufferExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/nio/Example$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/nio/Example$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/nio/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/nio/Example.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +76,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -155,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625926462116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="server nio">
+      <created>1626287529328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626287529328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -189,24 +204,30 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="file" />
     <MESSAGE value="lesson1 hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson1 hw" />
+    <MESSAGE value="server nio" />
+    <MESSAGE value="3 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 lesson" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="435" y="187" key="#Notifications" timestamp="1625833754912">
+    <state x="435" y="187" key="#Notifications" timestamp="1626349871011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="435" y="187" key="#Notifications/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833754912" />
+    <state x="435" y="187" key="#Notifications/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626349871011" />
     <state x="163" y="0" key="#Project_Structure" timestamp="1625833137105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833137105" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1626263286642">
+    <state x="428" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626357150162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626263286642" />
+    <state x="428" y="165" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357150162" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1626356686391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626356686391" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1626012337004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -215,22 +236,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="260" key="Github.ShareDialog/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833367677" />
-    <state width="1306" height="168" key="GridCell.Tab.0.bottom" timestamp="1626287202775">
+    <state width="1306" height="168" key="GridCell.Tab.0.bottom" timestamp="1626311749687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="168" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626287202775" />
-    <state width="1306" height="168" key="GridCell.Tab.0.center" timestamp="1626287202774">
+    <state width="1306" height="168" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626311749687" />
+    <state width="1306" height="168" key="GridCell.Tab.0.center" timestamp="1626311749687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="168" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626287202774" />
-    <state width="1306" height="168" key="GridCell.Tab.0.left" timestamp="1626287202774">
+    <state width="1306" height="168" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626311749687" />
+    <state width="1306" height="168" key="GridCell.Tab.0.left" timestamp="1626311749687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="168" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626287202774" />
-    <state width="1306" height="168" key="GridCell.Tab.0.right" timestamp="1626287202774">
+    <state width="1306" height="168" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626311749687" />
+    <state width="1306" height="168" key="GridCell.Tab.0.right" timestamp="1626311749687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="168" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626287202774" />
+    <state width="1306" height="168" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626311749687" />
     <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1625922695020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -247,14 +268,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="217" key="GridCell.Tab.1.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625922695020" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1626284765649">
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1626357391974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626284765649" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1625926473736">
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357391974" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1626357390761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625926473736" />
+    <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357390760" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626357234997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357234997" />
     <state x="65" y="0" key="new project wizard" timestamp="1625944233999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
