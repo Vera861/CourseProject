@@ -1,15 +1,16 @@
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.scene.Parent;
 
 public class ChatApp extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent parent = FXMLLoader.load(getClass().getResource("chat.fxml"));
-        primaryStage.setScene(new Scene(parent));
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("chat.fxml"));
+        primaryStage.setTitle("File Manager");
+        primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
 }

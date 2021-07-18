@@ -28,15 +28,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="3 lesson">
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/MessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/ChatApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ChatApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ChatController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/resources/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/ChatApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/ChatApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/ChatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/ChatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/chat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/nio/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/nio/Server.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/client/src/main/java/ChatController.java" />
+    </disable_hints>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,10 +83,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\Java 3 core course project\CourseProject\client\src\main\resources" />
+      <recent name="L:\Java 3 core course project\CourseProject\client\src\main\java" />
       <recent name="L:\Java 3 core course project\CourseProject\client\clientFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server (1)">
+  <component name="RunManager" selected="Application.ChatApp">
     <configuration name="BufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nio.BufferExample" />
       <module name="server" />
@@ -130,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatApp" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.BufferExample" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.ChatApp" />
-        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626363686020</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3 lesson">
+      <created>1626364368271</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626364368271</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -231,6 +252,10 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Intentions" timestamp="1626559015106">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Intentions/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626559015106" />
     <state x="435" y="187" key="#Notifications" timestamp="1626349871011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -255,53 +280,75 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="260" key="Github.ShareDialog/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833367677" />
-    <state width="1306" height="168" key="GridCell.Tab.0.bottom" timestamp="1626311749687">
+    <state width="1322" height="173" key="GridCell.Tab.0.bottom" timestamp="1626644720238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="168" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626311749687" />
-    <state width="1306" height="168" key="GridCell.Tab.0.center" timestamp="1626311749687">
+    <state width="1322" height="173" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626644720238" />
+    <state width="1322" height="173" key="GridCell.Tab.0.center" timestamp="1626644720238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="168" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626311749687" />
-    <state width="1306" height="168" key="GridCell.Tab.0.left" timestamp="1626311749687">
+    <state width="1322" height="173" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626644720238" />
+    <state width="1322" height="173" key="GridCell.Tab.0.left" timestamp="1626644720238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="168" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626311749687" />
-    <state width="1306" height="168" key="GridCell.Tab.0.right" timestamp="1626311749687">
+    <state width="1322" height="173" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626644720238" />
+    <state width="1322" height="173" key="GridCell.Tab.0.right" timestamp="1626644720238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="168" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626311749687" />
-    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1625922695020">
+    <state width="1322" height="173" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626644720238" />
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1626631688266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625922695020" />
-    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1625922695020">
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626631688266" />
+    <state width="1322" height="216" key="GridCell.Tab.1.center" timestamp="1626631688266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625922695020" />
-    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1625922695020">
+    <state width="1322" height="216" key="GridCell.Tab.1.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626631688266" />
+    <state width="1322" height="216" key="GridCell.Tab.1.left" timestamp="1626631688265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625922695020" />
-    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1625922695020">
+    <state width="1322" height="216" key="GridCell.Tab.1.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626631688265" />
+    <state width="1322" height="216" key="GridCell.Tab.1.right" timestamp="1626631688266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="217" key="GridCell.Tab.1.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625922695020" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1626357391974">
+    <state width="1322" height="216" key="GridCell.Tab.1.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626631688266" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1626551015966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357391974" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626551015966" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1626357390761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357390760" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626363689116">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626364374903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626363689116" />
-    <state x="65" y="0" key="new project wizard" timestamp="1626362795087">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626364374903" />
+    <state x="229" y="95" width="908" height="633" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1626642763825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626362795087" />
+    <state x="229" y="95" width="908" height="633" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626642763825" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1626558849407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626558849407" />
+    <state x="65" y="0" key="new project wizard" timestamp="1626630663950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626630663950" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1626640289813">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626640289813" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
