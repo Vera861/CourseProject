@@ -1,5 +1,6 @@
 import io.netty.handler.codec.serialization.ObjectDecoderInputStream;
 import io.netty.handler.codec.serialization.ObjectEncoderOutputStream;
+import javafx.application.Platform;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.fxml.FXML;
@@ -8,6 +9,7 @@ import javafx.scene.control.*;
 import model.Message;
 
 import java.io.IOException;
+import java.net.Socket;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -66,6 +68,28 @@ public class ChatController implements Initializable {
         tableFile.getColumns().addAll(nameCol, sizeCol, dateCol);
         tableFile.getSortOrder().add(nameCol);
         updateList(Paths.get(root));
+
+        buffer = new byte[256];
+        try {
+            Socket socket = new Socket("localhost", 8189);
+            os = new ObjectEncoderOutputStream(socket.getOutputStream());
+            is = new ObjectDecoderInputStream(socket.getInputStream());
+            Thread readThread = new Thread(() -> {
+                try {
+                    while (true) {
+                        String status = is.readUTF();
+                        Platform.runLater(() -> statusBar.setText(status)
+                        );
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            });
+            readThread.setDaemon(true);
+            readThread.start();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void updateList(Path path) {
@@ -78,45 +102,9 @@ public class ChatController implements Initializable {
             alert.showAndWait();
         }
     }
-
-//
-//
-//
-////        buffer = new byte[256];
-////        try {
-//////            File dir = new File(root);
-//////            listView.getItems().clear();
-//////            listView.getItems().addAll(dir.list());
-////
-////            Socket socket = new Socket("localhost", 8189);
-////            os = new ObjectEncoderOutputStream(socket.getOutputStream());
-////            is = new ObjectDecoderInputStream(socket.getInputStream());
-////
-////            Thread readThread = new Thread(() -> {
-////                try {
-////                    while (true) {
-////                        String status = is.readUTF();
-////                        Platform.runLater(() -> statusBar.setText(status)
-////                        );
-////                    }
-//                } catch (Exception e) {
-//                    e.printStackTrace();
-//                }
-//            });
-//            readThread.setDaemon(true);
-//            readThread.start();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//    }
-
-//    public void send(java.awt.event.ActionEvent actionEvent) throws IOException {
-//        String content = statusBar.getText();
-//        network.writeMessage(new Message(content));
-//    }
-
     public void send(javafx.event.ActionEvent actionEvent) {
         String content = statusBar.getText();
         network.writeMessage(new Message(content));
     }
+
 }
