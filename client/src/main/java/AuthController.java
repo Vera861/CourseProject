@@ -17,9 +17,11 @@ public class AuthController {
     private PasswordField passwordTF;
     private DataInputStream in;
     private DataOutputStream out;
+    public static String nick;
 
     @FXML
     private void initialize() throws IOException {
+
         Socket socket = ServerConnection.getSocket();
         in = new DataInputStream(socket.getInputStream());
         out = new DataOutputStream(socket.getOutputStream());
@@ -30,7 +32,7 @@ public class AuthController {
                     while (true) {
                         String strFromServer = in.readUTF();
                         if (strFromServer.startsWith("/authok")) {
-                            Config.nick = strFromServer.split(" ")[1];
+                            nick = strFromServer.split(" ")[1];
                             Platform.runLater(() -> {
                                 Stage stage = (Stage) loginTF.getScene().getWindow();
                                 stage.close();
@@ -57,10 +59,5 @@ public class AuthController {
             alert.setContentText("Введите пароль!");
             alert.showAndWait();
         }
-    }
-
-    @FXML
-    private String getLogin() throws IOException {
-        return loginTF.getText();
     }
 }

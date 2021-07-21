@@ -27,14 +27,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="interface">
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/ServerConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/auth.fxml" afterDir="false" />
+    <list default="true" id="68df45c3-2c02-4e44-982c-381a147db569" name="Default Changelist" comment="File History project">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/History project" beforeDir="false" afterPath="$PROJECT_DIR$/History project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/ChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/model/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/model/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,8 +144,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ChatApp" />
-        <item itemvalue="Application.Server (2)" />
         <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Server (2)" />
         <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.BufferExample" />
       </list>
@@ -224,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626645542734</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="File History project">
+      <created>1626696390577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626696390577</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -261,7 +267,8 @@
     <MESSAGE value="server nio" />
     <MESSAGE value="3 lesson" />
     <MESSAGE value="interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface" />
+    <MESSAGE value="File History project" />
+    <option name="LAST_COMMIT_MESSAGE" value="File History project" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -283,10 +290,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="428" y="165" key="#com.intellij.fileTypes.FileTypeChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357150162" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1626362930882">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1626881862858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626362930882" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626881862858" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1626646443690">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -295,22 +302,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="551" y="260" key="Github.ShareDialog/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1625833367677" />
-    <state width="1322" height="173" key="GridCell.Tab.0.bottom" timestamp="1626646315770">
+    <state width="1322" height="173" key="GridCell.Tab.0.bottom" timestamp="1626880506086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="173" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626646315770" />
-    <state width="1322" height="173" key="GridCell.Tab.0.center" timestamp="1626646315770">
+    <state width="1322" height="173" key="GridCell.Tab.0.bottom/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626880506086" />
+    <state width="1322" height="173" key="GridCell.Tab.0.center" timestamp="1626880506085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="173" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626646315770" />
-    <state width="1322" height="173" key="GridCell.Tab.0.left" timestamp="1626646315770">
+    <state width="1322" height="173" key="GridCell.Tab.0.center/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626880506085" />
+    <state width="1322" height="173" key="GridCell.Tab.0.left" timestamp="1626880506085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="173" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626646315770" />
-    <state width="1322" height="173" key="GridCell.Tab.0.right" timestamp="1626646315770">
+    <state width="1322" height="173" key="GridCell.Tab.0.left/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626880506085" />
+    <state width="1322" height="173" key="GridCell.Tab.0.right" timestamp="1626880506085">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="173" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626646315770" />
+    <state width="1322" height="173" key="GridCell.Tab.0.right/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626880506085" />
     <state width="1322" height="216" key="GridCell.Tab.1.bottom" timestamp="1626631688266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -335,10 +342,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626357390760" />
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626645545092">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1626696398696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626645545092" />
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/1366.0.1360.728/0.0.1366.728@0.0.1366.728" timestamp="1626696398696" />
     <state x="229" y="95" width="908" height="633" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1626642763825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
